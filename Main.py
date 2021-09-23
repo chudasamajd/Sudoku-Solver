@@ -48,23 +48,4 @@ def main(image_path):
 main('D:\\Python Projects\\Sudoku Solver\\s1.jpg')
 
 
-# def convert_sec_to_hms(seconds):
-#     seconds = seconds % (24 * 3600)
-#     hour = seconds // 3600
-#     seconds %= 3600
-#     minutes = seconds // 60
-#     seconds %= 60
-#     return "%d:%02d:%08d" % (hour, minutes, seconds)
 
-
-# if __name__ == '__main__':
-    #    image_path = 'images/sudoku.jpg'
-    #    main(image_path)
-    # try:
-    #     start_time = time()
-    #     main(image_path=sys.argv[1])
-    #     print("TAT: ", round(time() - start_time, 3))
-    # except:  # except IndexError:
-    #     fmt = 'usage: {} image_path'
-    #     print(fmt.format(__file__.split('/')[-1]))
-    #     print('[ERROR]: Image not found')
